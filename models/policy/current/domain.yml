@@ -1,0 +1,38 @@
+action_factory: null
+actions:
+- utter_default
+- utter_greet
+- utter_goodbye
+- utter_ticket_number
+- utter_ticket_place
+- utter_ticket_sort
+- utter_ticket_affirm
+config:
+  store_entities_as_slots: true
+entities:
+- number
+- place
+- ticket
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- ticket_order
+slots: {}
+templates:
+  utter_default:
+  - text: 嗯
+  utter_goodbye:
+  - text: 再见
+  utter_greet:
+  - text: 你好
+  utter_ticket_affirm:
+  - text: 好的，已订购成功
+  utter_ticket_number:
+  - text: 你想要订购几张
+  utter_ticket_place:
+  - text: 你想要去哪里
+  utter_ticket_sort:
+  - text: 你想要飞机票还是火车票
+topics: []

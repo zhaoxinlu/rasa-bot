@@ -1,0 +1,21 @@
+{
+  "features": [
+    "intent_greet", 
+    "intent_goodbye", 
+    "intent_affirm", 
+    "intent_deny", 
+    "intent_ticket_order", 
+    "entity_number", 
+    "entity_place", 
+    "entity_ticket", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_default", 
+    "prev_utter_greet", 
+    "prev_utter_goodbye", 
+    "prev_utter_ticket_number", 
+    "prev_utter_ticket_place", 
+    "prev_utter_ticket_sort", 
+    "prev_utter_ticket_affirm"
+  ]
+}

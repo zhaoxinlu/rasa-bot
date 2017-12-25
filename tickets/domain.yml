@@ -1,0 +1,36 @@
+intents:
+ - greet
+ - goodbye
+ - affirm
+ - deny
+ - ticket_order
+
+entities:
+ - number
+ - place
+ - ticket
+
+templates:
+  utter_greet:
+    - "你好"
+  utter_goodbye:
+    - "再见"
+  utter_default:
+    - "嗯"
+  utter_ticket_number:
+    - "你想要订购几张"
+  utter_ticket_place:
+    - "你想要去哪里"
+  utter_ticket_sort:
+    - "你想要飞机票还是火车票"
+  utter_ticket_affirm:
+    - "好的，已订购成功"
+
+actions:
+  - utter_default
+  - utter_greet
+  - utter_goodbye
+  - utter_ticket_number
+  - utter_ticket_place
+  - utter_ticket_sort
+  - utter_ticket_affirm

@@ -1,0 +1,975 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "\u4f60\u597d"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "\u4f60\u597d\u554a"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "\u4f60\u597d\u5417"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hello"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hi"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "\u65e9\u4e0a\u597d"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "\u665a\u4e0a\u597d"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "\u55e8"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u662f\u7684"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u662f"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u5bf9\u7684"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u786e\u5b9e"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u597d"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "ok"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u597d\u7684"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u597d\u7684\uff0c\u8c22\u8c22\u4f60"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u5bf9\u7684"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u597d\u6ef4"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u597d\u554a"
+      }, 
+      {
+        "entities": [], 
+        "intent": "restaurant_search", 
+        "text": "\u6211\u60f3\u627e\u5730\u65b9\u5403\u996d"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 5, 
+            "value": "\u5403\u706b\u9505", 
+            "entity": "food"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "\u6211\u60f3\u5403\u706b\u9505\u554a"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 5, 
+            "value": "\u62c9\u9762", 
+            "entity": "food"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "\u627e\u4e2a\u5403\u62c9\u9762\u7684\u5e97"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "\u9ebb\u8fa3\u70eb", 
+            "entity": "food"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "\u8fd9\u9644\u8fd1\u54ea\u91cc\u6709\u5403\u9ebb\u8fa3\u70eb\u7684\u5730\u65b9"
+      }, 
+      {
+        "entities": [], 
+        "intent": "restaurant_search", 
+        "text": "\u9644\u8fd1\u6709\u4ec0\u4e48\u597d\u5403\u7684\u5730\u65b9\u5417"
+      }, 
+      {
+        "entities": [], 
+        "intent": "restaurant_search", 
+        "text": "\u809a\u5b50\u997f\u4e86\uff0c\u63a8\u8350\u4e00\u5bb6\u5403\u653e\u7684\u5730\u513f\u5457"
+      }, 
+      {
+        "entities": [], 
+        "intent": "restaurant_search", 
+        "text": "\u5e26\u8001\u5a46\u5b69\u5b50\u53bb\u54ea\u91cc\u5403\u996d\u6bd4\u8f83\u597d"
+      }, 
+      {
+        "entities": [], 
+        "intent": "restaurant_search", 
+        "text": "\u60f3\u53bb\u4e00\u5bb6\u6709\u60c5\u8c03\u7684\u9910\u5385"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "bye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "\u518d\u89c1"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "886"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "\u62dc\u62dc"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "\u4e0b\u6b21\u89c1"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "\u611f\u5192", 
+            "entity": "disease"
+          }
+        ], 
+        "intent": "medical", 
+        "text": "\u611f\u5192\u4e86\u600e\u4e48\u529e"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 1, 
+            "end": 3, 
+            "value": "\u4fbf\u79d8", 
+            "entity": "disease"
+          }
+        ], 
+        "intent": "medical", 
+        "text": "\u6211\u4fbf\u79d8\u4e86\uff0c\u8be5\u5403\u4ec0\u4e48\u836f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 1, 
+            "end": 3, 
+            "value": "\u80c3\u75db", 
+            "entity": "disease"
+          }
+        ], 
+        "intent": "medical", 
+        "text": "\u6211\u80c3\u75db\uff0c\u8be5\u5403\u4ec0\u4e48\u836f\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 5, 
+            "value": "\u6253\u55b7\u568f", 
+            "entity": "disease"
+          }
+        ], 
+        "intent": "medical", 
+        "text": "\u4e00\u76f4\u6253\u55b7\u568f\u600e\u4e48\u529e"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 7, 
+            "value": "\u9ad8\u8840\u538b", 
+            "entity": "disease"
+          }
+        ], 
+        "intent": "medical", 
+        "text": "\u7236\u6bcd\u90fd\u6709\u9ad8\u8840\u538b\uff0c\u6211\u4f1a\u9057\u4f20\u5417"
+      }, 
+      {
+        "entities": [], 
+        "intent": "medical", 
+        "text": "\u6211\u751f\u75c5\u4e86"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "\u53d1\u70e7", 
+            "entity": "disease"
+          }
+        ], 
+        "intent": "medical", 
+        "text": "\u5934\u4e0a\u70eb\u70eb\u7684\uff0c\u611f\u89c9\u53d1\u70e7\u4e86"
+      }, 
+      {
+        "entities": [], 
+        "intent": "medical", 
+        "text": "\u5934\u5f88\u75bc\u8be5\u600e\u4e48\u529e"
+      }, 
+      {
+        "entities": [], 
+        "intent": "medical", 
+        "text": "\u51cf\u80a5\u6709\u4ec0\u4e48\u597d\u65b9\u6cd5\u5417\uff1f"
+      }, 
+      {
+        "entities": [], 
+        "intent": "medical", 
+        "text": "\u600e\u6837\u826f\u597d\u7684\u751f\u6d3b\u4e60\u60ef\u624d\u80fd\u9884\u9632\u751f\u75c5\u5462"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 5, 
+            "value": "\u98de\u4fe1", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u4ec0\u4e48\u662f\u98de\u4fe1"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 7, 
+            "value": "\u98de\u4fe1\u7528\u6237", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u4ec0\u4e48\u662f\u98de\u4fe1\u7528\u6237"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 9, 
+            "value": "\u98de\u4fe1\u79fb\u52a8\u7528\u6237", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u4ec0\u4e48\u662f\u98de\u4fe1\u79fb\u52a8\u7528\u6237"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 10, 
+            "value": "\u98de\u4fe1\u4e92\u8054\u7f51\u7528\u6237", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u4ec0\u4e48\u662f\u98de\u4fe1\u4e92\u8054\u7f51\u7528\u6237"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "\u98de\u4fe1", 
+            "entity": ""
+          }, 
+          {
+            "start": 5, 
+            "end": 7, 
+            "value": "\u4ea7\u54c1", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u98de\u4fe1\u6709\u4ec0\u4e48\u4ea7\u54c1"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 9, 
+            "value": "\u4e2d\u56fd\u79fb\u52a8\u624b\u673a\u53f7", 
+            "entity": ""
+          }, 
+          {
+            "start": 19, 
+            "end": 23, 
+            "value": "\u98de\u4fe1\u670d\u52a1", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6ca1\u6709\u4e2d\u56fd\u79fb\u52a8\u624b\u673a\u53f7\u7684\u7528\u6237\u53ef\u4ee5\u5f00\u901a\u3001\u4f7f\u7528\u98de\u4fe1\u670d\u52a1\u5417\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 6, 
+            "value": "\u670d\u52a1\u5bc6\u7801", 
+            "entity": ""
+          }, 
+          {
+            "start": 6, 
+            "end": 8, 
+            "value": "\u9057\u5fd8", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u5982\u679c\u670d\u52a1\u5bc6\u7801\u9057\u5fd8\u4e86\uff0c\u8be5\u5982\u4f55\u5904\u7406\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 5, 
+            "value": "\u8bbe\u7f6e", 
+            "entity": ""
+          }, 
+          {
+            "start": 6, 
+            "end": 10, 
+            "value": "\u670d\u52a1\u5bc6\u7801", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6211\u6ca1\u6709\u8bbe\u7f6e\u8fc7\u670d\u52a1\u5bc6\u7801\uff0c\u8be5\u5982\u4f55\u8bbe\u7f6e"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 4, 
+            "value": "\u4fee\u6539", 
+            "entity": ""
+          }, 
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "\u670d\u52a1\u5bc6\u7801", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6211\u60f3\u4fee\u6539\u670d\u52a1\u5bc6\u7801\uff0c\u5982\u4f55\u64cd\u4f5c\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 5, 
+            "value": "\u6e56\u5317", 
+            "entity": ""
+          }, 
+          {
+            "start": 5, 
+            "end": 9, 
+            "value": "\u79fb\u52a8\u7f51\u7ad9", 
+            "entity": ""
+          }, 
+          {
+            "start": 11, 
+            "end": 13, 
+            "value": "\u7f34\u8d39", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6211\u901a\u8fc7\u6e56\u5317\u79fb\u52a8\u7f51\u7ad9\u5982\u4f55\u7f34\u8d39\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 4, 
+            "value": "\u79ef\u5206", 
+            "entity": ""
+          }, 
+          {
+            "start": 6, 
+            "end": 8, 
+            "value": "\u5151\u6362", 
+            "entity": ""
+          }, 
+          {
+            "start": 9, 
+            "end": 11, 
+            "value": "\u8bdd\u8d39", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6211\u7684\u79ef\u5206\u600e\u4e48\u5151\u6362\u6210\u8bdd\u8d39\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "\u6570\u636e\u6d41\u91cf\u5957\u9910", 
+            "entity": ""
+          }, 
+          {
+            "start": 3, 
+            "end": 7, 
+            "value": "\u4e0a\u7f51\u5f88\u5c11", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6211\u5e73\u65f6\u4e0a\u7f51\u5f88\u5c11\uff0c\u5076\u5c14\u4e0aQQ\u804a\u5929\uff0c\u8bf7\u95ee\u6211\u4f7f\u7528\u54ea\u79cd\u6570\u636e\u6d41\u91cf\u5957\u9910\u5212\u7b97\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 14, 
+            "value": "\u5f69\u94c3", 
+            "entity": ""
+          }, 
+          {
+            "start": 23, 
+            "end": 25, 
+            "value": "\u8bbe\u7f6e", 
+            "entity": ""
+          }, 
+          {
+            "start": 9, 
+            "end": 11, 
+            "value": "\u5bf9\u65b9", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6211\u62e8\u6253\u670b\u53cb\u7684\u624b\u673a\u65f6\u5bf9\u65b9\u7684\u5f69\u94c3\u6211\u5f88\u559c\u6b22\uff0c\u6211\u5982\u4f55\u80fd\u8bbe\u7f6e\u6210\u6211\u7684\u5f69\u94c3"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 9, 
+            "value": "\u79fb\u52a8\u624b\u673a\u53f7", 
+            "entity": ""
+          }, 
+          {
+            "start": 12, 
+            "end": 14, 
+            "value": "\u90ae\u7bb1", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u542c\u670b\u53cb\u8bf4\u79fb\u52a8\u624b\u673a\u53f7\u53ef\u4ee5\u505a\u90ae\u7bb1\uff0c\u600e\u4e48\u529e\u7406\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "\u56fd\u9645\u6f2b\u6e38", 
+            "entity": ""
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "\u8d44\u8d39\u4f18\u60e0", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u56fd\u9645\u6f2b\u6e38\u65f6\u5982\u4f55\u62e8\u6253\u53ef\u4eab\u53d7\u8d44\u8d39\u4f18\u60e0"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 4, 
+            "value": "\u624b\u673a", 
+            "entity": ""
+          }, 
+          {
+            "start": 6, 
+            "end": 8, 
+            "value": "\u88ab\u9501", 
+            "entity": ""
+          }, 
+          {
+            "start": 14, 
+            "end": 18, 
+            "value": "PIN\u7801", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u6211\u7684\u624b\u673a\u63d0\u793a\u88ab\u9501\u4e86\uff0c\u8981\u6c42\u8f93\u5165PIN\u7801\uff0c\u600e\u4e48\u529e\uff1f"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "\u68a6\u7f51\u4e1a\u52a1", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u68a6\u7f51\u4e1a\u52a1\u662f\u4ec0\u4e48"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "\u68a6\u7f51\u4e1a\u52a1", 
+            "entity": ""
+          }, 
+          {
+            "start": 6, 
+            "end": 8, 
+            "value": "\u5b9a\u5236", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u68a6\u7f51\u4e1a\u52a1\u5982\u4f55\u5b9a\u5236"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "\u68a6\u7f51\u4e1a\u52a1", 
+            "entity": ""
+          }, 
+          {
+            "start": 6, 
+            "end": 8, 
+            "value": "\u6536\u8d39", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u68a6\u7f51\u4e1a\u52a1\u5982\u4f55\u6536\u8d39"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "\u68a6\u7f51\u4e1a\u52a1", 
+            "entity": ""
+          }, 
+          {
+            "start": 5, 
+            "end": 7, 
+            "value": "\u9000\u8ba2", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u68a6\u7f51\u4e1a\u52a1\u7684\u9000\u8ba2\u65b9\u6cd5\u6709\u54ea\u4e9b"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "\u624b\u673a\u94b1\u5305", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u624b\u673a\u94b1\u5305\u662f\u4ec0\u4e48\u4e1a\u52a1"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "\u5b9e\u65f6\u8bdd\u8d39", 
+            "entity": ""
+          }, 
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "\u4f59\u989d\u60c5\u51b5", 
+            "entity": ""
+          }, 
+          {
+            "start": 6, 
+            "end": 8, 
+            "value": "\u4e86\u89e3", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u5982\u4f55\u53ef\u4ee5\u53ca\u65f6\u4e86\u89e3\u81ea\u5df1\u5b9e\u65f6\u8bdd\u8d39\u53ca\u4f59\u989d\u60c5\u51b5"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "\u4e0a\u6708", 
+            "entity": ""
+          }, 
+          {
+            "start": 10, 
+            "end": 12, 
+            "value": "\u8bdd\u8d39", 
+            "entity": ""
+          }
+        ], 
+        "intent": "other", 
+        "text": "\u5982\u4f55\u53ef\u4ee5\u67e5\u5230\u6211\u4e0a\u6708\u7684\u8bdd\u8d39\u6d88\u8d39\u60c5\u51b5"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 7, 
+            "value": "\u6210\u90fd", 
+            "entity": "place"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8981\u53bb\u5f80\u6210\u90fd"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 1, 
+            "end": 3, 
+            "value": "\u62c9\u8428", 
+            "entity": "place"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u53bb\u62c9\u8428"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "\u98de\u673a\u7968", 
+            "entity": "ticket"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u98de\u673a\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "\u98de\u673a\u7968", 
+            "entity": "ticket"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u673a\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "\u706b\u8f66\u7968", 
+            "entity": "ticket"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u706b\u8f66\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 1, 
+            "end": 3, 
+            "value": "\u7f8e\u56fd", 
+            "entity": "place"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u53bb\u7f8e\u56fd"
+      }, 
+      {
+        "entities": [], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8ba2\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "\u5341\u5f20", 
+            "entity": "number"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u5341\u5f20\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "12\u5f20", 
+            "entity": "number"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "12\u5f20\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "15\u5f20", 
+            "entity": "number"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "15\u5f20\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "5\u5f20", 
+            "entity": "number"
+          }, 
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "\u6cb3\u5317", 
+            "entity": "place"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8ba2\u52365\u5f20\u53bb\u5f80\u6cb3\u5317\u7684\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "8\u5f20", 
+            "entity": "number"
+          }, 
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "\u6cb3\u5317", 
+            "entity": "place"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8ba2\u52368\u5f20\u53bb\u5f80\u6cb3\u5317\u7684\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "\u4e00\u5f20", 
+            "entity": "number"
+          }, 
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "\u4e0a\u6d77", 
+            "entity": "place"
+          }, 
+          {
+            "start": 11, 
+            "end": 14, 
+            "value": "\u706b\u8f66\u7968", 
+            "entity": "ticket"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8ba2\u5236\u4e00\u5f20\u53bb\u5f80\u4e0a\u6d77\u7684\u706b\u8f66\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "\u5341\u5f20", 
+            "entity": "number"
+          }, 
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "\u5317\u4eac", 
+            "entity": "place"
+          }, 
+          {
+            "start": 11, 
+            "end": 14, 
+            "value": "\u706b\u8f66\u7968", 
+            "entity": "ticket"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8ba2\u5236\u5341\u5f20\u53bb\u5f80\u5317\u4eac\u7684\u706b\u8f66\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "\u4e24\u5f20", 
+            "entity": "number"
+          }, 
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "\u4e0a\u6d77", 
+            "entity": "place"
+          }, 
+          {
+            "start": 11, 
+            "end": 14, 
+            "value": "\u98de\u673a\u7968", 
+            "entity": "ticket"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8ba2\u5236\u4e24\u5f20\u53bb\u5f80\u4e0a\u6d77\u7684\u98de\u673a\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "\u4e09\u5f20", 
+            "entity": "number"
+          }, 
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "\u5317\u4eac", 
+            "entity": "place"
+          }, 
+          {
+            "start": 11, 
+            "end": 14, 
+            "value": "\u98de\u673a\u7968", 
+            "entity": "ticket"
+          }
+        ], 
+        "intent": "tickets_order", 
+        "text": "\u6211\u60f3\u8ba2\u5236\u4e09\u5f20\u53bb\u5f80\u5317\u4eac\u7684\u98de\u673a\u7968"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "\u9ebb\u8fa3\u70eb", 
+            "entity": "food"
+          }
+        ], 
+        "intent": "food", 
+        "text": "\u9ebb\u8fa3\u70eb"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "\u852c\u83dc", 
+            "entity": "food"
+          }
+        ], 
+        "intent": "food", 
+        "text": "\u852c\u83dc"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "\u5403\u4e86"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "salad", 
+            "entity": "food"
+          }
+        ], 
+        "intent": "food", 
+        "text": "salad"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}

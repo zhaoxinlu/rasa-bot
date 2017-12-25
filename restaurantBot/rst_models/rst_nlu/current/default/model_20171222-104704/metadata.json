@@ -1,0 +1,19 @@
+{
+    "entity_synonyms": "entity_synonyms.json", 
+    "pipeline": [
+        "rasa_nlu.utils.mitie_utils.MitieNLP", 
+        "rasa_nlu.tokenizers.mitie_tokenizer.MitieTokenizer", 
+        "rasa_nlu.extractors.mitie_entity_extractor.MitieEntityExtractor", 
+        "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper", 
+        "rasa_nlu.featurizers.mitie_featurizer.MitieFeaturizer", 
+        "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
+    ], 
+    "mitie_feature_extractor_fingerprint": 10023965992282753551, 
+    "language": "en", 
+    "mitie_file": "/home/xinlu/rasa_bot/restaurantBot/restaurantData/total_word_feature_extractor.dat", 
+    "intent_classifier_sklearn": "intent_classifier.pkl", 
+    "trained_at": "20171222-104704", 
+    "training_data": "training_data.json", 
+    "entity_extractor_mitie": "entity_extractor.dat", 
+    "rasa_nlu_version": "0.10.4"
+}

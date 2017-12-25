@@ -1,0 +1,12 @@
+{
+  "name": "rst_nlu",
+  "pipeline": ["nlp_mitie",
+        "tokenizer_mitie",
+        "ner_mitie",
+        "ner_synonyms",
+        "intent_featurizer_mitie",
+        "intent_classifier_sklearn"],
+  "mitie_file": "/home/xinlu/rasa_bot/restaurantBot/restaurantData/total_word_feature_extractor.dat",
+  "path" : "../rst_models/rst_nlu",
+  "data" : "franken_data.json"
+}
